@@ -10,9 +10,8 @@ namespace Technology
     {
         public bool HasCamera { get; set; } = true;
 
-        public Smartphone(bool hasCamera, double ram, double screenSize, string oS) : base(ram, screenSize, oS)
+        public Smartphone(double ram, double screenSize, string oS) : base(ram, screenSize, oS)
         {
-            HasCamera = hasCamera;
         }
 
         public void DropPhone()

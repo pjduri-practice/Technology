@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Technology;
+
+Smartphone patsPhone = new Smartphone(64, 8, "Not iOS");
+
+Console.WriteLine(patsPhone.HasCamera);
+patsPhone.DropPhone();
+Console.WriteLine(patsPhone.Id);

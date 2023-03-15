@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Technology
 {
-    public class Computer
+    public class Computer : AbstractEntity
     {
         public double Ram { get; set; }
         public readonly double ScreenSize;
         public string OS { get; set; }
 
-        public Computer(double ram, double screenSize, string oS)
+        public Computer(double ram, double screenSize, string oS) : base()
         {
             Ram = ram;
             ScreenSize = screenSize;
